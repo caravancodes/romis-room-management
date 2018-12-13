@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#3E2723</color>
+
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextDisable">#66FFFFFF</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorBlack">#000000</color>b
+
+
+    <color name="BackBooked">#B2DFDB</color>
+    <color name="BackBookedText">#4DB6AC</color>
+    <color name="textColorBooked">#000000</color>
+
+    <color name="Available">#1B5E20</color>
+</resources>

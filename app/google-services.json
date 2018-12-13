@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "426414668076",
+    "firebase_url": "https://romis-2a957.firebaseio.com",
+    "project_id": "romis-2a957",
+    "storage_bucket": "romis-2a957.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426414668076:android:2d85fa1006b93077",
+        "android_client_info": {
+          "package_name": "com.frogobox.romis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426414668076-dept0fbgkj074u4bhh943kfs7pr79p55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frogobox.romis",
+            "certificate_hash": "f3a790d8086472166813d8e808c0804e7e3da28a"
+          }
+        },
+        {
+          "client_id": "426414668076-vfs3hb8nac8qlbg17n7c3fc111pavndn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9_XIYTkPjRAR2P4t5RzDgR3NHAiFLDjg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426414668076-vfs3hb8nac8qlbg17n7c3fc111pavndn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

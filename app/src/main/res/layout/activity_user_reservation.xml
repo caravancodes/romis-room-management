@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".User.UserReservationActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/imageFoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/room2" />
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#D9000000"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:id="@+id/textView_NamaRuangan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gundam"
+                    android:textSize="@dimen/large_text"
+                    android:textColor="#FFFFFF"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView_kapasitas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24 Orang"
+                        android:textColor="#FFFFFF"/>
+
+                    <TextView
+                        android:id="@+id/textView_posisi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lantai 3"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginLeft="@dimen/card_padding"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#004D40"
+                android:padding="5dp"
+                android:text="TANGGAL"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
