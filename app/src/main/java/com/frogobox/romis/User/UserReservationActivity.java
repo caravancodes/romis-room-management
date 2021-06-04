@@ -1,11 +1,10 @@
 package com.frogobox.romis.User;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.frogobox.romis.Admin.Object.AdminApprovalObject;
 import com.frogobox.romis.Helper.FunctionHelper;
 import com.frogobox.romis.R;
 import com.frogobox.romis.User.Object.UserReservationObject;
